@@ -1,5 +1,5 @@
 ---
-title:  "A Craftsman Workshop"
+title:  "Little Miss Sentiment"
 subtitle: "It's always a bit messy"
 author: "n"
 avatar: "img/authors/nadun.jpg"

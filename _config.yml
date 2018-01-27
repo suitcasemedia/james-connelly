@@ -2,9 +2,11 @@
 title: Modern Blog V2
 description: Modern-Blog A Elegant template for Jekyll
 keywords: Modern, Blogging, Fun
-author: Nadun
-baseurl: "http://projects.jamesconnelly.org/" # the subpath of your site, e.g. /blog/
+author: Jimmy
+baseurl: "http://jamesconnelly.org/" # the subpath of your site, e.g. /blog/
+#baseurl: "/james-connelly" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 gems: [jekyll-paginate,jekyll-seo-tag,jekyll-sitemap]
 paginate: 3
 google_analytics: 'UA-XXXXXXX-X'
+
