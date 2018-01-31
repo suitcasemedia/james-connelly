@@ -1,10 +1,10 @@
 ---
-title:  "Little Miss Sentiment"
-subtitle: "It's always a bit messy"
-author: "n"
-avatar: "img/authors/nadun.jpg"
-image: "img/f.jpg"
-date:   2015-04-25 12:12:12
+title:  "Savvy boxes"
+subtitle: "Safe internet browsing for large organisations"
+author: "Jimmy"
+avatar: "img/authors/jimmy.svg"
+image: "img/boxes.svg"
+date:   2015-04-24 12:12:12
 ---
 
 ### Dolor sit amet?

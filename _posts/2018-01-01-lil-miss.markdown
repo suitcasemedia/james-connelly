@@ -1,10 +1,10 @@
 ---
-title:  "Absense of light"
-subtitle: "Only lights from space"
-author: "Wferr"
-avatar: "img/authors/nadun.jpg"
-image: "img/d.jpg"
-date:   2015-04-23 12:12:12
+title:  "Little Miss Sentiment"
+subtitle: "Twitter sentiment analysis"
+author: "Jimmy"
+avatar: "img/authors/jimmy.svg"
+image: "img/happy.svg"
+date:   2018-01-01 12:12:12
 ---
 
 ### Dolor sit amet?

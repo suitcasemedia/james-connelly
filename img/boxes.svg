@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1" viewBox="0 0 60 90" style="background:black;">
+<desc>Created with Snap</desc>
+<defs></defs>
+<g id="1">
+    <path d="M 5,10 l0,0 l 15 ,0l0,15l-15,0l0,-15 z" fill="#ffffff" style="stroke-width: 0.2;" stroke="#000000"></path>
+    <path d="M 20,10l 5,-5   l0,15   l-5,5   l0,-15 z" fill="#ffffff" stroke="#000000" style="stroke-width: 0.2;"></path>
+    <path d="M 5,10 l0,0l5,-5l15,0l-5,5l-15,0z" fill="#ffffff" stroke="#000000" style="stroke-width: 0.2;"></path>
+    <text x="7" y="16.5" style="font-size: 7px;" class="box-number">1</text>
+    <rect x="7" y="18" width="2" height="2" fill="#ff0000" style=""></rect>
+    <rect x="10" y="18" width="2" height="2" fill="#008000" style=""></rect>
+    <rect x="13" y="18" width="2" height="2" fill="#008000" style=""></rect>
+    <rect x="16" y="18" width="2" height="2" fill="#008000" style=""></rect>
+    <rect x="7" y="21" width="2" height="2" style="" fill="#ffa500"></rect>
+    <rect x="10" y="21" width="2" height="2" fill="#000000" style=""></rect>
+    <rect x="13" y="21" width="2" height="2" fill="#ffa500" style=""></rect>
+    <rect x="16" y="21" width="2" height="2" fill="#008000" style=""></rect>
+    <text x="7" y="20.5" fill="#008000" style="font-size: 0.35px;">Virus detection</text>
+    <text x="10" y="20.5" fill="#008000" style="font-size: 0.35px;">External storage</text>
+    <text x="13" y="20.5" fill="#008000" style="font-size: 0.35px;">Bookmarks</text>
+    <text x="16" y="20.5" fill="#008000" style="font-size: 0.35px;">User group</text>
+    <text x="7" y="23.5" fill="#008000" style="font-size: 0.35px;">Content filters</text>
+    <text x="10" y="23.5" fill="#008000" style="font-size: 0.35px;">Extra bandwidth</text>
+    <text x="13" y="23.5" fill="#008000" style="font-size: 0.35px;">Firmware update</text>
+    <text x="16" y="23.5" fill="#008000" style="font-size: 0.35px;">Power</text>
+</g>
+    <g id="2"><path d="M 27,10 l0,0 l 15 ,0l0,15l-15,0l0,-15 z" fill="#ffffff" stroke="#000000" style="stroke-width: 0.2;"></path><path d="M 42,10l 5,-5   l0,15   l-5,5   l0,-15 z" fill="#ffffff" stroke="#000000" style="stroke-width: 0.2;"></path><path d="M 27,10 l0,0l5,-5l15,0l-5,5l-15,0z" fill="#ffffff" stroke="#000000" style="stroke-width: 0.2;"></path><text x="29" y="16.5" style="font-size: 7px;" class="box-number">2</text><rect x="29" y="18" width="2" height="2" fill="#ff0000" style=""></rect><rect x="32" y="18" width="2" height="2" fill="#008000" style=""></rect><rect x="35" y="18" width="2" height="2" fill="#008000" style=""></rect><rect x="38" y="18" width="2" height="2" fill="#008000" style=""></rect><rect x="29" y="21" width="2" height="2" fill="#ffa500" style=""></rect><rect x="32" y="21" width="2" height="2" fill="#000000" style=""></rect><rect x="35" y="21" width="2" height="2" fill="#ffa500" style=""></rect><rect x="38" y="21" width="2" height="2" fill="#008000" style=""></rect><text x="29" y="20.5" fill="#008000" style="font-size: 0.35px;">Virus detection</text><text x="32" y="20.5" fill="#008000" style="font-size: 0.35px;">External storage</text><text x="35" y="20.5" fill="#008000" style="font-size: 0.35px;">Bookmarks</text><text x="38" y="20.5" fill="#008000" style="font-size: 0.35px;">User group</text><text x="29" y="23.5" fill="#008000" style="font-size: 0.35px;">Content filters</text><text x="32" y="23.5" fill="#008000" style="font-size: 0.35px;">Extra bandwidth</text><text x="35" y="23.5" fill="#008000" style="font-size: 0.35px;">Firmware update</text><text x="38" y="23.5" fill="#008000" style="font-size: 0.35px;">Power</text></g>
+
+   
+    </svg>

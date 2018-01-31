@@ -3,7 +3,18 @@
 /**
  * Demo.
  */
+
+
+
 var demo = (function(window, undefined) {
+
+  var el = document.getElementById('busy-holder');
+  var body = document.getElementsByTagName("body")[0];
+  el.style.display = 'none';
+  el.style.position = 'relative';
+  el.style.width = '0';
+  el.style.height = '0';
+  body.removeChild(el);
 
   /**
    * Enum of CSS selectors.
@@ -54,7 +65,7 @@ var demo = (function(window, undefined) {
       }
     }).svg(); // Render as SVG.
 
-    _mapPolygons(pattern);
+   // _mapPolygons(pattern);
 
     _bindCards();
   };
@@ -236,7 +247,12 @@ var demo = (function(window, undefined) {
     init: init
   };
 
+
+  
 })(window);
 
 // Kickstart Demo.
 window.onload = demo.init;
+
+
+TweenMax.staggerFrom("path", 2, { x:-2000, y:-50,z:-20,rotation: 270, scale:0.1, opacity:0, delay:0.2, ease:Elastic.easeOut, force3D:true}, 0.5);
