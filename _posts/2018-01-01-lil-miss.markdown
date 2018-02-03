@@ -6,15 +6,21 @@ avatar: "img/authors/jimmy.svg"
 image: "img/happy.svg"
 date:   2018-01-01 12:12:12
 ---
+### Live URL: <a  target="_blank" href="http://little-miss-sentiment.herokuapp.com/">http://little-miss-sentiment.herokuapp.com/</a> 
 
-### Dolor sit amet?
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vestibulum non mi non pulvinar. Donec tempus risus vel ex fringilla tempor. Vivamus pharetra non mauris quis fermentum. Vestibulum sed maximus elit, sit amet suscipit orci. Morbi at enim at libero dignissim egestas vel ac nisi. Etiam at lectus a arcu sodales consequat. Aliquam consequat ligula sed purus tincidunt, a ultrices nibh dapibus. Phasellus convallis ipsum nec semper ultricies. In facilisis lacus velit, sit amet lacinia velit blandit id. Nullam ut magna erat. Aliquam sit amet dapibus odio, aliquet tempus tortor. Donec in nisi massa.
 
-### Aliquam suscipit.
-Cras eget nisl accumsan, porta nisl in, egestas sapien. Vestibulum gravida nulla sed facilisis tempor. Suspendisse maximus nisi sit amet velit sodales fringilla. Vivamus luctus risus eget dui consectetur porttitor. Maecenas ut ultrices orci. Maecenas mollis est eu sodales mollis. Nulla facilisi. Suspendisse eros arcu, elementum sed sem eu, pharetra rhoncus odio. Proin nec tincidunt velit. Cras nisl augue, faucibus sed mauris in, vestibulum mollis nisl. Nam id libero ultrices, consequat ex vitae, convallis nulla.
+I came up with this idea when I was trying to think of what kind of digital tools might be useful for journalists. 
+For example if you wanted to gather background information for a an upcoming politcal event - you could type in a  politicians name. The app would  then fetch 100 Tweets containing that persons name and then take an average sentiment analysis from those Tweets. This in theory could be a way to guage public sentiment about that person. As it turns out, I learned from doing this that most of the Tweets are really  quite neutral and you have to type in something really extreme like 'Death Hell' to get a negative score or 'Heaven happy' to get a positive score. Everything else tends to be between a score of 0.5 and -0.5 which is neutral according to VADAR sentiment anyalsis system that the app uses. 
 
-Suspendisse lorem odio, blandit at nisl quis, hendrerit tempus tellus. Donec eget leo quis nisi vulputate consectetur. Praesent dignissim enim elit, congue luctus nisl cursus at. Sed rutrum molestie risus. Donec vulputate gravida accumsan. Vivamus tempus ullamcorper eleifend. Sed sagittis mi ut dolor tincidunt, ac rutrum nisi commodo.
+### How does it work?
+The front end is built with React and Redux and uses the fetch api to get and receive requests from the back end.
+The back end is build with python and Flask and it does 6 basic tasks:
 
-Fusce non elit in diam rutrum vestibulum. Donec vitae elementum erat. Praesent elementum eget justo at bibendum. Fusce interdum diam lorem, ut placerat elit pretium quis. Quisque eu urna at quam commodo sagittis. Etiam posuere convallis tincidunt. Phasellus vitae ligula neque. Vivamus a purus at dolor iaculis placerat. Curabitur convallis eu lacus congue sagittis.
+1. Gets the query text from the form that then gets  sent  over from the front end.
+2. Takes that query text and sends it to the Twitter api
+3. Receives 100 Tweets from the Twitter API containing the query text.
+4. Runs the 100 Tweets through VADAR sentiment analysis library.
+5. Vadar returns an average sentiment score for the all the words in the tweets.
+6. The API returns a json string that contains the final sentiment score and the 100 tweets returned from the Twitter API
 
-Aliquam suscipit fermentum mauris a accumsan. In facilisis, mauris quis pulvinar tempus, turpis sapien sodales nibh, nec feugiat augue est quis nisi. Fusce eget odio feugiat, luctus quam et, dapibus nulla. Sed ornare lacus non libero lacinia pretium. In eu dui vitae purus euismod feugiat ac ac est. Morbi vitae pretium lorem, non eleifend felis. Nullam at massa feugiat, rutrum elit at, semper lacus. Etiam vel rutrum felis. Nullam quis auctor lorem, et tempor arcu.
+The backend is built with python and Flask. The reason I used python for the api is because VADAR is written in python.

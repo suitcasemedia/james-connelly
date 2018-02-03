@@ -255,4 +255,4 @@ var demo = (function(window, undefined) {
 window.onload = demo.init;
 
 
-TweenMax.staggerFrom("path", 2, { x:-2000, y:-50,z:-20,rotation: 270, scale:0.1, opacity:0, delay:0.2, ease:Elastic.easeOut, force3D:true}, 0.5);
+TweenMax.staggerFrom("path", 2, { x:-2000, y:-50,z:-20,rotation: 270, scale:0.1, opacity:0, delay:0.2, ease:Elastic.easeOut, force3D:true}, 0.05);
