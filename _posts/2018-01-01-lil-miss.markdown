@@ -11,6 +11,7 @@ date:   2018-01-01 12:12:12
 
 I came up with this idea when I was trying to think of what kind of digital tools might be useful for journalists. 
 For example if you wanted to gather background information for a an upcoming politcal event - you could type in a  politicians name. The app would  then fetch 100 Tweets containing that persons name and then take an average sentiment analysis from those Tweets. This in theory could be a way to guage public sentiment about that person. As it turns out, I learned from doing this that most of the Tweets are really  quite neutral and you have to type in something really extreme like 'Death Hell' to get a negative score or 'Heaven happy' to get a positive score. Everything else tends to be between a score of 0.5 and -0.5 which is neutral according to VADAR sentiment anyalsis system that the app uses. 
+The fact that it is so difficult to get a positive score of more than 0.5 gave me the idea to turn it into a game scenario to try and challenge the user to get a higher sentiment analysis score.
 
 ### How does it work?
 The front end is built with React and Redux and uses the fetch api to get and receive requests from the back end.

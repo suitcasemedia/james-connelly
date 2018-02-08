@@ -17,7 +17,7 @@ The central motif is a huge virtuoso  bright pink spontaniously  brushed squiggl
 
 ### Rolling out the new brand to the dev team
 
-The lead developer said  they are now thinking of ways to use front end development techniques to bring the new brand to their in house data driven reporting tools which were increasingly being shared with customers. Continuity is really important.
+The lead developer told me they are now thinking of ways to use front end development techniques to bring the new brand to their in house data driven reporting tools which were increasingly being shared with customers. Continuity is really important.
 
 One of the lead developers told me they use <a href="https://tleunen.github.io/react-mdl/"  target="blank"> React Material Design</a> or <a href="https://material.io/components/web/">something similar</a> which saves them a lot of work but were open to the idea of developing their own UI kit.
 
@@ -30,7 +30,7 @@ I chose the latter as it is more widely supported in current browsers.
 
 As a front end developer it is important to make elements reusable and consistent. Its also important to make design features easy to implement for developers who prefer writing backend code.
 
-I built a react component that generates the SVG and takes the title text as a 'prop' paramenter and renders the title inside a 'text' elent which is inturn nested inside the 'clipPath' element and referenced by the embeded image. The completed SVG with the embeded image and clipPath text is embeded on the page automatically. 
+I built a react component that generates the SVG and takes the title text as a 'prop' parameter and renders the title inside a 'text' elent which is inturn nested inside the 'clipPath' element and referenced by the embeded image. The completed SVG with the embeded image and clipPath text is embeded on the page automatically. 
 
 I used to find clipPath masks  confusing because  I always thought of a mask as a thing that covers something else up. What an SVG clipPath actually does is kind of the opposite. When I add link a clipPath to an element the clipPath covers the whole element EXECPT for the area covered by the clipPath inner area. So if I create an SVG image with the pink squiggle embeded in it - then I define a clipPath property containing  'text' element saying 'Your Summary' then all of the image will be hidden except for the parts that are covered by the text saying 'Your Summary' because that is the clipPath area.
 
