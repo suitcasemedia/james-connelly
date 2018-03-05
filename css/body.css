@@ -56,6 +56,16 @@ a {
 	outline: none;
 }
 
+span > a{
+
+	text-decoration: none;
+	background-color: #de6551;
+	outline: none;
+	color: #fff;
+	padding:  4px;
+
+}
+
 a:hover,
 a:focus {
 	color: #3b393d;
