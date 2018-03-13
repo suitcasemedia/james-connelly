@@ -1,6 +1,6 @@
 ---
 title:  "HTML5 Web Sockets."
-subtitle: "A Beautiful shot during the night."
+subtitle: "Using websocket.org"
 author: "Jimmy"
 avatar: "img/authors/jimmy.svg"
 image: "img/sockets.jpeg"
