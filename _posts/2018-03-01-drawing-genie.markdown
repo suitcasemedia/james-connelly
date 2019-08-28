@@ -1,6 +1,6 @@
 ---
 title:  "Drawing Genie"
-subtitle: "Using art to make wished come true"
+subtitle: "Using art to make wishes come true"
 author: "Jimmy"
 avatar: "img/authors/jimmy.svg"
 image: "img/genie.jpeg"
